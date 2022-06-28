@@ -21,6 +21,7 @@ const SelectedMovie = () => {
         return res.json();
       })
       .then((json) => {
+        
         setMovies(json);
       })
       .catch((err) => {

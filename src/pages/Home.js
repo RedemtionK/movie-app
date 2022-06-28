@@ -1,5 +1,6 @@
 import React from 'react'
 import FeaturedMovies from '../components/FeaturedMovies'
+import FeaturedTvShows from '../components/FeaturedTvShows'
 import HeroSection from '../components/HeroSection'
 
 export default function Home() {
@@ -13,7 +14,14 @@ export default function Home() {
     <div className='row'>
       <FeaturedMovies />
     </div>
+   
   </div>
+  <div className='container-fluid movie'>
+      <h4>Featured TvShows</h4>
+    <div className='row'>
+      <FeaturedTvShows/>
+    </div>
+    </div>
   </div>
   )
 }

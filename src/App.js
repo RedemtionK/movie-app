@@ -12,6 +12,7 @@ import MoviesTitles from './pages/MoviesTitles';
 import SelectedMovie from './pages/SelectedMovie';
 import Login from './pages/Login';
 import Register from './pages/Register';
+import NotFound from './pages/NotFound';
 
 
 function App() {
@@ -53,6 +54,7 @@ function App() {
         <Route path = "/movies/:id" element = {<SelectedMovie/>}/>
         <Route path = "/log-in" element = {<Login/>}/>
         <Route path='/register' element={<Register/>}/>
+        <Route path="*" element={<NotFound/>}/>
 
       </Routes>
 </movieContext.Provider>

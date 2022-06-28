@@ -185,3 +185,12 @@ body {
 .btn{
 	margin-left: 3%;
 }
+.notfound{
+	margin: auto;
+	width: 40%;
+	
+}
+.route-image{
+	width: 500px;
+	height: 400px;
+}
