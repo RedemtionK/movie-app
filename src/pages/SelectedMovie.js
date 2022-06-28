@@ -30,7 +30,7 @@ const SelectedMovie = () => {
 
   return (
     <div className="container">
-      <h2>Movie</h2>
+      <h2>Movie: {movies.Title}</h2>
       <div className="row align-items-start">
         <div className="col"><img className="poster" src={movies.Poster} />
         </div>
