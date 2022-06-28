@@ -1,0 +1,431 @@
+{
+    "movies": [
+        {
+            "id": 1,
+            "Title": "Doctor Strange",
+            "Year": "2016",
+            "imdbID": "tt1211837",
+            "Type": "movie",
+            "Poster": "https://m.media-amazon.com/images/M/MV5BNjgwNzAzNjk1Nl5BMl5BanBnXkFtZTgwMzQ2NjI1OTE@._V1_SX300.jpg",
+            "Big":"https://cdn.vox-cdn.com/thumbor/7K3uPy1iLOC4ovn73AY28U_-FGg=/0x0:1920x1079/1200x800/filters:focal(1085x298:1391x604)/cdn.vox-cdn.com/uploads/chorus_image/image/64773806/ply_dr_strange_graded.0.jpg",
+            "Description":"Marvel's Doctor Strange follows the story of the talented neurosurgeon Doctor Stephen Strange who, after a tragic car accident, must put ego aside and learn the secrets of a hidden world of mysticism and alternate dimensions",
+            "Rent":4,
+            "Buy":20
+            
+
+        },
+        {
+            "id": 2,
+            "Title": "Doctor Who",
+            "Year": "2005–",
+            "imdbID": "tt0436992",
+            "Type": "series",
+            "Poster": "https://m.media-amazon.com/images/M/MV5BZWJhYjFmZDEtNTVlYy00NGExLWJhZWItNTAxODY5YTc3MDFmXkEyXkFqcGdeQXVyMTkxNjUyNQ@@._V1_SX300.jpg",
+            "Big":"https://ichef.bbci.co.uk/images/ic/1200x675/p0b0n5gc.jpg",
+            "Description":"Doctor Who is a British science-fiction television programme broadcast by the BBC since 1963. The programme depicts the adventures of a Time Lord called the Doctor, an extraterrestrial being who appears to be human.",
+            "Rent":3,
+            "Buy":10
+        },
+        {
+            "id": 3,
+            "Title": "Doctor Strange in the Multiverse of Madness",
+            "Year": "2022",
+            "imdbID": "tt9419884",
+            "Type": "movie",
+            "Poster": "https://m.media-amazon.com/images/M/MV5BNWM0ZGJlMzMtZmYwMi00NzI3LTgzMzMtNjMzNjliNDRmZmFlXkEyXkFqcGdeQXVyMTM1MTE1NDMx._V1_SX300.jpg",
+            "Big":"https://thedisinsider.com/ezoimgfmt/i0.wp.com/thedisinsider.com/wp-content/uploads/2022/06/NJXQ8h3mUd9mhsh2m8xpba.jpg?w=1280&ssl=1&ezimgfmt=ng:webp/ngcb1",
+            "Description":"Dr Stephen Strange casts a forbidden spell that opens a portal to the multiverse. However, a threat emerges that may be too big for his team to handle",
+            "Rent":8,
+            "Buy":30
+
+        },
+        {
+            "id": 4,
+            "Title": "Spider-Man: No Way Home",
+            "Year": "2021",
+            "imdbID": "10872600",
+            "Type": "movie",
+            "Featured":1,
+            "Poster": "https://m.media-amazon.com/images/M/MV5BZWMyYzFjYTYtNTRjYi00OGExLWE2YzgtOGRmYjAxZTU3NzBiXkEyXkFqcGdeQXVyMzQ0MzA0NTM@._V1_SX300.jpg",
+            "Big":"https://wwwflickeringmythc3c8f7.zapwp.com/q:i/r:0/wp:0/w:1/u:https://cdn.flickeringmyth.com/wp-content/uploads/2021/11/SPider-Man-No-Way-Home-UK-posters-1.jpg",
+            "Description":"With Spider-Man's identity now revealed, our friendly neighborhood web-slinger is unmasked and no longer able to separate his normal life as Peter Parker from the high stakes of being a superhero.",
+            "Rent":8,
+            "Buy":30
+        },
+        {
+            "id": 5,
+            "Title": "Spider-Man: Homecoming",
+            "Year": "2017",
+            "imdbID": "tt2250912",
+            "Type": "movie",
+            "Poster": "https://m.media-amazon.com/images/M/MV5BNTk4ODQ1MzgzNl5BMl5BanBnXkFtZTgwMTMyMzM4MTI@._V1_SX300.jpg",
+            "Big":"https://i.guim.co.uk/img/media/76e184b242a942ce7540ed3042e4bc47f3e473ae/0_187_5976_3586/master/5976.jpg?width=1200&height=1200&quality=85&auto=format&fit=crop&s=f8059cac81f893d717cde57e1f854640",
+            "Description":"Peter Parker balances his life as an ordinary high school student in Queens with his superhero alter-ego Spider-Man, and finds himself on the trail of a new menace prowling the skies of New York City. A young Peter Parker/Spider-Man begins to navigate his newfound identity as the web-slinging super hero Spider-Man.",
+            "Rent":8,
+            "Buy":30
+        },
+        {
+            "id": 6,
+            "Title": "Spider-Man: Into the Spider-Verse",
+            "Year": "2018",
+            "imdbID": "tt4633694",
+            "Type": "movie",
+            "Poster": "https://m.media-amazon.com/images/M/MV5BMjMwNDkxMTgzOF5BMl5BanBnXkFtZTgwNTkwNTQ3NjM@._V1_SX300.jpg",
+            "Big":"https://cdn.vox-cdn.com/thumbor/wRHFqxpxk00Z6ium1rsDb1gqh3g=/0x0:1777x744/1200x800/filters:focal(724x143:1008x427)/cdn.vox-cdn.com/uploads/chorus_image/image/62693936/MV5BMTgxODE5MDgyOV5BMl5BanBnXkFtZTgwMzkyODI4NjM_._V1_SX1777_CR0_0_1777_744_AL_.0.jpg",
+            "Description":"Miles Morales has just started at a new school and is struggling to fit in. Then he is bitten by a radioactive spider and he obtains certain powers, similar to those of Spiderman. He doesn't know what to do with the powers, or how to control them, so naturally he turns to Spider-Man for advice",
+            "Rent":8,
+            "Buy":30
+        },
+        {
+            "id": 7,
+            "Title": "Batman v Superman: Dawn of Justice",
+            "Year": "2016",
+            "imdbID": "tt2975590",
+            "Type": "movie",
+            "Poster": "https://m.media-amazon.com/images/M/MV5BYThjYzcyYzItNTVjNy00NDk0LTgwMWQtYjMwNmNlNWJhMzMyXkEyXkFqcGdeQXVyMTQxNzMzNDI@._V1_SX300.jpg",
+            "Big":"https://cdn.vox-cdn.com/thumbor/C7rm5jcBc1Bkz-esaJolKPmxxJE=/0x4:1000x671/1200x800/filters:focal(0x4:1000x671)/cdn.vox-cdn.com/uploads/chorus_image/image/33371451/bvs.0.jpg",
+            "Description":"Batman v Superman: Dawn of Justice is the first live-action film to feature Batman and Superman together, as well as the first live-action cinematic portrayal of Wonder Woman. In the film, criminal mastermind Lex Luthor manipulates Batman into a preemptive battle with Superman, with whom Luthor is obsessed.",
+            "Rent":8,
+            "Buy":30
+        },
+        {
+            "id": 8,
+            "Title": "Justice League",
+            "Year": "2017",
+            "imdbID": "tt0974015",
+            "Type": "movie",
+            "Poster": "https://m.media-amazon.com/images/M/MV5BYWVhZjZkYTItOGIwYS00NmRkLWJlYjctMWM0ZjFmMDU4ZjEzXkEyXkFqcGdeQXVyMTMxODk2OTU@._V1_SX300.jpg",
+            "Big":"https://metro.co.uk/wp-content/uploads/2018/06/sei_18254595.jpg?quality=90&strip=all&crop=0px%2C107px%2C2500px%2C1314px&resize=1200%2C630",
+            "Description":"The League is the earth's first line of defense against threats too large for humanity to face alone. For decades, the Justice League has saved humanity from the worst threats it has ever faced, from alien warlords to ancient demons and powerful sorcerers, to the God of Evil himself, Darkseid.",
+            "Rent":8,
+            "Buy":30
+        },
+        {
+            "id": 9,
+            "Title": "Zack Snyder's Justice League",
+            "Year": "2021",
+            "imdbID": "tt12361974",
+            "Type": "movie",
+            "Poster": "https://m.media-amazon.com/images/M/MV5BYjI3NDg0ZTEtMDEwYS00YWMyLThjYjktMTNlM2NmYjc1OGRiXkEyXkFqcGdeQXVyMTEyMjM2NDc2._V1_SX300.jpg",
+            "Big":"http://images6.fanpop.com/image/photos/43800000/Zack-Snyder-s-Justice-League-Wallpaper-justice-league-dceu-43840174-1200-800.png",
+            "Description":"The League is the earth's first line of defense against threats too large for humanity to face alone. For decades, the Justice League has saved humanity from the worst threats it has ever faced, from alien warlords to ancient demons and powerful sorcerers, to the God of Evil himself, Darkseid.",
+            "Rent":8,
+            "Buy":30
+        },
+        {
+            "id": 10,
+            "Title": "Riders of Justice",
+            "Year": "2020",
+            "imdbID": "tt11655202",
+            "Type": "movie",
+            "Poster": "https://m.media-amazon.com/images/M/MV5BZWVkNTFmNTQtMGRiZC00NjAwLThjYTgtYmI3ZjA2Zjc1MTM1XkEyXkFqcGdeQXVyODk4OTc3MTY@._V1_SX300.jpg",
+            "Big":"https://decider.com/wp-content/uploads/2021/05/Riders-of-Justice.jpg?quality=75&strip=all&w=1200",
+            "Description":"RIDERS OF JUSTICE follows recently-deployed Markus (Mads Mikkelsen), who is forced to return home to care for his teenage daughter after his wife is killed in a tragic train accident.",
+            "Rent":8,
+            "Buy":30
+        },
+        {
+            "id": 11,
+            "Title": "Justice League: The Flashpoint Paradox",
+            "Year": "2013",
+            "imdbID": "tt2820466",
+            "Type": "movie",
+            "Poster": "https://m.media-amazon.com/images/M/MV5BMTgwNTljYzgtOTU3ZC00ZjhhLTk0YzItY2RiMWU0MGZlNzFjL2ltYWdlXkEyXkFqcGdeQXVyNDQ2MTMzODA@._V1_SX300.jpg",
+            "Description":"Justice League: The Flashpoint Paradox is a 2013 direct-to-video animated superhero film adaptation of the 2011 comic book crossover Flashpoint by Geoff Johns and Andy Kubert. It is scripted by Jim Krieg and directed by Jay Oliva. The film stars Justin Chambers as Barry Allen / Flash, C.",
+            "Big":"http://oyster.ignimgs.com/wordpress/stg.ign.com/2013/07/Flashpoint-Paradox-first-image-fix.jpg",
+            "Rent":0,
+            "Buy":5
+        },
+        {
+            "id": 12,
+            "Title": "Captain America: The First Avenger",
+            "Year": "2011",
+            "imdbID": "tt0458339",
+            "Type": "movie",
+            "Poster": "https://m.media-amazon.com/images/M/MV5BMTYzOTc2NzU3N15BMl5BanBnXkFtZTcwNjY3MDE3NQ@@._V1_SX300.jpg",
+            "Description":"Steve Rogers, a weak, sickly young man eager to fight is repeatedly rejected from the war-until a seemingly crazy scientist recruits him in a new experiment to turn the tides. He is transformed into the super soldier the world needs, but no one believes it.",
+            "Big":"https://wpubeacon.com/wp-content/uploads/2021/04/CaptainAmericafirstfilm.jpg",
+            "Rent":0,
+            "Buy":5
+
+        },
+        {
+            "id": 13,
+            "Title": "Captain America: The Winter Soldier",
+            "Year": "2014",
+            "imdbID": "tt1843866",
+            "Type": "movie",
+            "Poster": "https://m.media-amazon.com/images/M/MV5BMzA2NDkwODAwM15BMl5BanBnXkFtZTgwODk5MTgzMTE@._V1_SX300.jpg",
+            "Description":"Steve Rogers, finding it easier to acclimate to the modern society as a soldier of SHIELD, learns that the organization has been compromised and a Soviet assassin known as The Winter Soldier will stop at nothing to kill Captain America, which leads him uncover a truth that will change everything.",
+            "Big":"https://deseret.brightspotcdn.com/dims4/default/f2ce975/2147483647/strip/false/crop/4096x2304+0+213/resize/1200x675!/quality/90/?url=https%3A%2F%2Fcdn.vox-cdn.com%2Fthumbor%2F_aYov7zDlrDcrwx55BuJmBRMtuo%3D%2F0x0%3A4096x2730%2F4096x2730%2Ffilters%3Afocal%282048x1365%3A2049x1366%29%2Fcdn.vox-cdn.com%2Fuploads%2Fchorus_asset%2Ffile%2F22652663%2F4d696eace44b883595e762cb9c97300c_4096x2730_242657e0.jpeg",
+            "Rent":3,
+            "Buy":10
+
+
+        },
+        {
+            "id": 14,
+            "Title": "Captain America: Civil War",
+            "Year": "2016",
+            "imdbID": "tt3498820",
+            "Type": "movie",
+            "Poster": "https://m.media-amazon.com/images/M/MV5BMjQ0MTgyNjAxMV5BMl5BanBnXkFtZTgwNjUzMDkyODE@._V1_SX300.jpg",
+            "Description":"In 1991, Bucky Barnes (Sebastian Stan), brainwashed to be the Winter Soldier, causes a car to crash and recovers bags of a serum that turns people into super soldiers. After the Avengers defeated Ultron, Thor and Hulk are nowhere to be found.",
+            "Big":"https://decider.com/wp-content/uploads/2018/06/captain-america-civil-war-team-cap.jpg?quality=75&strip=all&w=1200",
+            "Rent":3,
+            "Buy":10
+        },
+        {
+            "id": 15,
+            "Title": "Captain Marvel",
+            "Year": "2019",
+            "imdbID": "tt4154664",
+            "Type": "movie",
+            "Poster": "https://m.media-amazon.com/images/M/MV5BMTE0YWFmOTMtYTU2ZS00ZTIxLWE3OTEtYTNiYzBkZjViZThiXkEyXkFqcGdeQXVyODMzMzQ4OTI@._V1_SX300.jpg",
+            "Description":"As Captain Marvel, Carol has a straightforward superhero powerset: She's super strong and super durable, and she can fly and hang out in the vacuum of space without dying; you know, Superman stuff. But she can also absorb any kind of energy and release it as concentrated blasts, usually from her hands",
+            "Big":"https://www.denofgeek.com/wp-content/uploads/2019/03/captain-marvel-review.jpg?fit=1200%2C800",
+            "Rent":3,
+            "Buy":10
+        },
+        {
+            "id":16,
+            "Title": "Ms. Marvel",
+            "Year": "2022–",
+            "imdbID": "tt10857164",
+            "Type": "series",
+            "Featured":1,
+            "Poster": "https://m.media-amazon.com/images/M/MV5BZmQ3OTZkNDUtNTU0Mi00ZjE4LTgyNTUtY2E4NWRmNDUxMzkyXkEyXkFqcGdeQXVyMDM2NDM2MQ@@._V1_SX300.jpg",
+            "Description":"Ms. Marvel, launching on Disney+, is a new series that introduces Kamala Khan—a 16-year-old Pakistani-American growing up in Jersey City. A great student, an avid gamer and a voracious fan-fiction scribe, she has a special affinity for superheroes, particularly Captain Marvel",
+            "Big":"https://decider.com/wp-content/uploads/2022/03/ms-marvel-powers.jpg?quality=75&strip=all&w=1200",
+            "Rent":3,
+            "Buy":10
+
+
+        },
+        {
+            "id":17,
+            "Title": "Marvel One-Shot: Agent Carter",
+            "Year": "2013",
+            "imdbID": "tt3067038",
+            "Type": "movie",
+            "Poster": "https://m.media-amazon.com/images/M/MV5BZDIwZTM4M2QtMWFhYy00N2VmLWFlMjItMzI3NjBjYTc0OTMxXkEyXkFqcGdeQXVyNTE1NjY5Mg@@._V1_SX300.jpg",
+            "Description":"Agent Carter is a 2013 American direct-to-video short film featuring the Marvel Comics character Peggy Carter, produced by Marvel Studios and distributed by ...",
+            "Big":"https://www.disneyplusinformer.com/wp-content/uploads/2021/09/agent-carter-one-shot.jpg",
+            "Rent":3,
+            "Buy":10
+        },
+        {
+            "id":18,
+            "Title": "Marvel One-Shot: All Hail the King",
+            "Year": "2014",
+            "imdbID": "tt3438640",
+            "Type": "movie",
+            "Poster": "https://m.media-amazon.com/images/M/MV5BZGFkMTZkMDQtNzM4Yy00YWEwLTkzOWEtZTMyNDRlNmJhYWJhXkEyXkFqcGdeQXVyNTE1NjY5Mg@@._V1_SX300.jpg",
+            "Description":"A documentary filmmaker interviews the now-famous Trevor Slattery from behind bars. A documentary filmmaker interviews the now-famous Trevor Slattery from behind bars. A documentary filmmaker interviews the now-famous Trevor Slattery from behind bars.",
+            "Big":"https://a.ltrbxd.com/resized/sm/upload/0y/6p/19/b5/yoigAFjhEhJM6O6hQT9TiKH6EL7-1200-1200-675-675-crop-000000.jpg?k=82daa62c3e",
+            "Rent":0,
+            "Buy":3
+
+        },
+        {     "id":32,
+            "Title": "Blade Runner: Black Out 2022",
+            "Year": "2017",
+            "imdbID": "tt7428594",
+            "Type": "movie",
+            "Poster": "https://m.media-amazon.com/images/M/MV5BZGNiNmNiMTctMDI4OS00OWYxLWE4ZWEtZjFkZjU4ZmY5YzEyXkEyXkFqcGdeQXVyMzgxODM4NjM@._V1_SX300.jpg",
+            "Description":"Blade Runner Black Out 2022 is a 2017 tech-noir cyberpunk anime short film directed by Shinichiro Watanabe and animated by Cygames Pictures. The short is one of three short films, alongside 2036: Nexus Dawn and 2048: Nowhere to Run, that serve as prequels to the live-action film Blade Runner 2049.",
+            "Big":"https://static.zerochan.net/Blade.Runner%3A.Black.Out.2022.full.2234086.jpg",
+            "Rent":0,
+            "Buy":3
+        },
+        {
+            "id":33,
+            "Title": "Blade Runner 2049",
+            "Year": "2017",
+            "imdbID": "tt1856101",
+            "Type": "movie",
+            "Featured":1,
+            "Poster": "https://m.media-amazon.com/images/M/MV5BNzA1Njg4NzYxOV5BMl5BanBnXkFtZTgwODk5NjU3MzI@._V1_SX300.jpg",
+            "Description":"Officer K (Ryan Gosling), a new blade runner for the Los Angeles Police Department, unearths a long-buried secret that has the potential to plunge what's left of society into chaos. His discovery leads him on a quest to find Rick Deckard (Harrison Ford), a former blade runner who's been missing for 30 years.",
+            "Big":"https://images.hdqwalls.com/download/2017-blade-runner-2049-movie-4k-de-2560x1600.jpg",
+            "Rent":6,
+            "Buy":15
+
+        },
+        {     "id":34,
+            "Title": "The Batman",
+            "Year": "2022",
+            "imdbID": "tt1877830",
+            "Type": "movie",
+            "Featured":1,
+            "Poster": "https://m.media-amazon.com/images/M/MV5BMDdmMTBiNTYtMDIzNi00NGVlLWIzMDYtZTk3MTQ3NGQxZGEwXkEyXkFqcGdeQXVyMzMwOTU5MDk@._V1_SX300.jpg",
+            "Description":"A reclusive billionaire who obsessively protects Gotham City as a masked vigilante to cope with his traumatic past. Batman is around 30 years old and is not yet an experienced crime fighter, as director Matt Reeves wanted to explore the character before he becomes fully formed.",
+            "Big":"https://sportshub.cbsistatic.com/i/2021/09/07/c671c709-c4bc-4e3e-9d20-8b14920fa5e2/the-batman-box-set-1279150.jpg",
+            "Rent":6,
+            "Buy":15
+        },
+        { 
+            "id":35,
+            "Title": "The Man from Toronto",
+            "Year": "2022",
+            "imdbID": "tt11671006",
+            "Type": "movie",
+            "Featured":1,
+            "Poster": "https://m.media-amazon.com/images/M/MV5BZDM2YjA2ZjAtMmZmMy00NDhjLWJjYWYtYjc4ZGY0YzUzOTMyXkEyXkFqcGdeQXVyMTkxNjUyNQ@@._V1_SX300.jpg",
+            "Description":"A case of mistaken identity forces a bumbling entrepreneur to team up with a notorious assassin in hopes of staying alive.",
+            "Big":"https://m.media-amazon.com/images/M/MV5BYTJjYWE3ZmMtNWYxMC00YjQyLWI3NGMtYmExNzIyYTVlMDI4XkEyXkFqcGdeQXZ3ZXNsZXk@._V1_.jpg",
+            "Rent":6,
+            "Buy":15
+
+        },
+        { "id":19,
+            "Title": "Marvel One-Shot: Item 47",
+            "Year": "2012",
+            "imdbID": "tt2247732",
+            "Type": "movie",
+            "Featured":1,
+            "Poster": "https://m.media-amazon.com/images/M/MV5BMjNlMzAxNmQtOGEwZi00NTEyLWI0NWYtMTlhNmE2YTA3ZDVhXkEyXkFqcGdeQXVyNTE1NjY5Mg@@._V1_SX300.jpg",
+            "Description":"S.H.I.E.L.D. agent Sitwell is assigned to recover an abandoned Chitauri weapon being used by a young couple robbing a bank. S.H.I.E.L.D. agent Sitwell is assigned to recover an abandoned Chitauri weapon being used by a young couple robbing a bank",
+            "Big":"https://i.ytimg.com/vi/Gog0_GKYpIg/maxresdefault.jpg",
+            "Rent":3,
+            "Buy":8
+        },
+        {
+            "id":20,
+            "Title": "Breaking Bad",
+            "Year": "2008–2013",
+            "imdbID": "tt0903747",
+            "Type": "series",
+            "Poster": "https://m.media-amazon.com/images/M/MV5BODFhZjAwNjEtZDFjNi00ZTEyLThkNzUtMjZmOWM2YjQwODFmXkEyXkFqcGdeQXVyMjQwMDg0Ng@@._V1_SX300.jpg",
+            "Description":"Premise. Set in Albuquerque, New Mexico, between 2008 and 2010, Breaking Bad follows Walter White, a meek high school chemistry teacher who transforms into a ruthless player in the local methamphetamine drug trade, driven by a desire to financially provide for his family after being diagnosed with terminal lung cancer.",
+            "Big":"https://img.etimg.com/thumb/msid-66544382,width-1200,height-900,imgsize-624149,overlay-etpanache/photo.jpg",
+            "Rent":3,
+            "Buy":8
+        },
+        {"id":21,
+            "Title": "A Series of Unfortunate Events",
+            "Year": "2017–2019",
+            "imdbID": "tt4834206",
+            "Type": "series",
+            "Poster": "https://m.media-amazon.com/images/M/MV5BMTYzMjA3OTgxOV5BMl5BanBnXkFtZTgwMjAwMDU5NjM@._V1_SX300.jpg",
+            "Description":"The series follows the unfortunate lives of the three extremely unlucky Baudelaire orphans, Violet, Klaus, and Sunny, trying to get by in their difficult lives and survive the pursuit of their nemesis Count Olaf and his various associates who attempt to steal their inherited fortune.",
+            "Big":"http://images5.fanpop.com/image/photos/26600000/A-Series-of-Unfortunate-Events-a-series-of-unfortunate-events-26617328-1024-768.jpg",
+            "Rent":3,
+            "Buy":8
+
+
+        },
+        {
+            "id":22,
+            "Title": "X-Men: The Animated Series",
+            "Year": "1992–1997",
+            "imdbID": "tt0103584",
+            "Type": "series",
+            "Poster": "https://m.media-amazon.com/images/M/MV5BNTVjNmEwNTMtNmQ2ZC00MGJkLWI3MDgtNzMyNTc4YjVkNTQ1L2ltYWdlXkEyXkFqcGdeQXVyNTAyODkwOQ@@._V1_SX300.jpg",
+            "Description":"A team of mutant superheroes fight for justice and human acceptance in the Marvel Comics universe. A team of mutant superheroes fight for justice and human acceptance in the Marvel Comics universe.",
+            "Big":"https://external-preview.redd.it/aG-E5zb4XOcedsKX_XN1eIe5Umnhqw4apdB9GOnlTKs.jpg?auto=webp&s=433d70e9dddfcb82d4b4b6e201ff81d6358377d6",
+            "Rent":3,
+            "Buy":8
+
+
+        },
+        { "id":23,
+            "Title": "Scream: The TV Series",
+            "Year": "2015–2019",
+            "imdbID": "tt3921180",
+            "Type": "series",
+            "Poster": "https://m.media-amazon.com/images/M/MV5BNjVmY2M3ZTUtMDhkZC00ODk4LTkwMjktNDRjNGRjYTIxZGZiXkEyXkFqcGdeQXVyNjEwNTM2Mzc@._V1_SX300.jpg",
+            "Description":"Scream is a serialized anthology series that follows a group of teenagers being stalked and targeted by a masked serial killer. The first two seasons, set in the fictional town of Lakewood, follow the story of Emma Duval, a teenage girl, who is linked to the horrific events of the town's past.",
+            "Big":"https://m.media-amazon.com/images/M/MV5BMTA5NTg5Mzc3MDheQTJeQWpwZ15BbWU4MDU0MzIwNzYx._V1_.jpg",
+            "Rent":3,
+            "Buy":8
+
+        },
+        {
+            "id":24,
+            "Title": "Spider-Man: The Animated Series",
+            "Year": "1994–1998",
+            "imdbID": "tt0112175",
+            "Type": "series",
+            "Poster": "https://m.media-amazon.com/images/M/MV5BMmQ1NzBlYmItNmZkZi00OTZkLTg5YTEtNTI5YjczZjk3Yjc1XkEyXkFqcGdeQXVyNTAyODkwOQ@@._V1_SX300.jpg",
+            "Description":"The series follows Peter Parker, a college student at Empire State University who struggles to balance his responsibilities as the hero Spider-Man with the problems of his personal life.",
+            "Big":"https://static.wikia.nocookie.net/spiderman-animated/images/1/11/6758586586.jpg/revision/latest?cb=20160401215445",
+            "Rent":3,
+            "Buy":8
+
+        },
+        {
+            "id":25,
+            "Title": "From Dusk Till Dawn: The Series",
+            "Year": "2014–2016",
+            "imdbID": "tt3337194",
+            "Type": "series",
+            "Poster": "https://m.media-amazon.com/images/M/MV5BMTc3Mjk5NjAyNF5BMl5BanBnXkFtZTgwMTAzNDkyMTE@._V1_SX300.jpg",
+            "Description":"Based on the thrill-ride film, From Dusk Till Dawn: The Series is a supernatural crime saga centered around bank robber, Seth Gecko (Cotrona) and his violent, unpredictable brother, Richard Richie Gecko (Holtz), who are wanted by the FBI and Texas Rangers Earl McGraw",
+            "Big":"https://www.theilluminerdi.com/wp-content/uploads/2021/01/From-Dusk-Till-Dawn-Tarantino-Clooney.jpg",
+            "Rent":3,
+            "Buy":8
+        },
+        {
+            "id":26,
+            "Title": "Superman: The Animated Series",
+            "Year": "1996–2000",
+            "imdbID": "tt0115378",
+            "Type": "series",
+            "Poster": "https://m.media-amazon.com/images/M/MV5BNDgzOWJjOTMtZjY4ZS00MGRkLTk0YTMtM2E3ZGQyYmMyYzkzXkEyXkFqcGdeQXVyMTA1OTEwNjE@._V1_SX300.jpg",
+            "Description":"The last son of the planet Krypton protects his adoptive home of Earth as the greatest of the superheroes. The last son of the planet Krypton protects his adoptive home of Earth as the greatest of the superheroes.",
+            "Big":"https://sportshub.cbsistatic.com/i/2021/03/18/0d48032c-1810-4ab6-bd85-6007ada258e5/superman-the-animated-series-1258190.jpg?width=1200",
+            "Rent":3,
+            "Buy":8
+        },
+        {
+            "id":27,
+            "Title": "Mr. Bean: The Animated Series",
+            "Year": "2002–2019",
+            "imdbID": "tt0280277",
+            "Type": "series",
+            "Poster": "https://m.media-amazon.com/images/M/MV5BMTk3MzUwOTU2NF5BMl5BanBnXkFtZTcwOTk2MTgyMQ@@._V1_SX300.jpg",
+            "Description":"Based on the popular British skit comedy Mr. Bean, this animated cartoon follows the adventures of everyone's favourite bumbler. The title character, voiced by Rowan Atkinson, lives in his flat with the lovable Teddy, where he makes moronic decisions yet brilliantly solves them.",
+            "Big":"https://i.pinimg.com/originals/d2/9e/dd/d29edde6e03a73a5cd8fe26ee710c82f.jpg",
+            "Rent":3,
+            "Buy":8
+        },
+        {
+            "id":28,
+            "Title": "Iron Man",
+            "Year": "2008",
+            "imdbID": "tt0371746",
+            "Type": "movie",
+            "Poster": "https://m.media-amazon.com/images/M/MV5BMTczNTI2ODUwOF5BMl5BanBnXkFtZTcwMTU0NTIzMw@@._V1_SX300.jpg",
+            "Description":"He is the Armored Avenger - driven by a heart that is part machine, but all hero! He is the INVINCIBLE IRON MAN! Iron Man's Powers and Abilities: Wears modular arc reactor-powered Iron Man armor, granting superhuman strength & durability, the ability to fly & project Repulsor blasts.",
+            "Big":"https://prod-ripcut-delivery.disney-plus.net/v1/variant/disney/F3D3913C40E89821027D128C295E127E80DDFC17157E6E10B622CCACFB56FE77/scale?width=1200&aspectRatio=1.78&format=jpeg",
+            "Rent":3,
+            "Buy":8
+        },
+        { "id":29,
+            "Title": "Iron Man 3",
+            "Year": "2013",
+            "imdbID": "tt1300854",
+            "Type": "movie",
+            "Poster": "https://m.media-amazon.com/images/M/MV5BMjE5MzcyNjk1M15BMl5BanBnXkFtZTcwMjQ4MjcxOQ@@._V1_SX300.jpg",
+            "Description":"Marvel's Iron Man 3 pits brash-but-brilliant industrialist Tony Stark/Iron Man against an enemy whose reach knows no bounds. When Stark finds his personal world destroyed at his enemy's hands, he embarks on a harrowing quest to find those responsible. This journey, at every turn, will test his mettle.",
+            "Big":"https://m.media-amazon.com/images/M/MV5BODMyODM1NmUtY2I5Zi00YjhlLTg4NDQtN2JlYjY5NGE0ZDdiXkEyXkFqcGdeQW1yb2Njbw@@._V1_.jpg",
+            "Rent":3,
+            "Buy":8
+        },
+        {
+            "id":30,
+            "Title": "Iron Man 2",
+            "Year": "2010",
+            "imdbID": "tt1228705",
+            "Type": "movie",
+            "Poster": "https://m.media-amazon.com/images/M/MV5BMTM0MDgwNjMyMl5BMl5BanBnXkFtZTcwNTg3NzAzMw@@._V1_SX300.jpg",
+            "Description":"After Tony Stark announces to the World that he's Iron Man. He faces many problems in his Life, His Lifesource is Poisoning him, The US Government wants his tech, and someone's out to kill Stark. That Someone is Ivan Vanko, Son of Anton Vanko who worked with Tony's Father Howard, But Howard then sent Anton to Russia.",
+            "Big":"https://cdn.vox-cdn.com/thumbor/rJcbF72KYppDls3yVsDPTODib7g=/0x0:2400x1194/1200x800/filters:focal(1101x111:1485x495)/cdn.vox-cdn.com/uploads/chorus_image/image/65948069/Screen_Shot_2019_12_20_at_2.19.38_PM.0.png",
+            "Rent":3,
+            "Buy":8
+            
+        }
+    ]
+    
+}
