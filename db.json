@@ -278,6 +278,31 @@
             "Buy":15
 
         },
+        {   "id":36,
+            "Title": "The Witcher",
+            "Year": "2019–",
+            "imdbID": "tt5180504",
+            "Type": "series",
+            "Featured":1,
+            "Poster": "https://m.media-amazon.com/images/M/MV5BN2FiOWU4YzYtMzZiOS00MzcyLTlkOGEtOTgwZmEwMzAxMzA3XkEyXkFqcGdeQXVyMTkxNjUyNQ@@._V1_SX300.jpg",
+            "Description":"Geralt of Rivia, a solitary monster hunter, struggles to find his place in a world where people often prove more wicked than beasts. The Witcher is a fantasy drama web television series created by Lauren Schmidt Hissrich for Netflix. It is based on the book series of the same name by Polish writer Andrzej Sapkowski.",
+            "Big":"https://www.denofgeek.com/wp-content/uploads/2020/07/The-Witcher-Netflix.jpg?fit=1200%2C8000",
+            "Rent":6,
+            "Buy":15
+
+        },
+        {   "id":37,
+            "Title": "Peaky Blinders",
+            "Year": "2013–2022",
+            "imdbID": "tt2442560",
+            "Type": "series",
+            "Featured":1,
+            "Poster": "https://m.media-amazon.com/images/M/MV5BMGZhODMyZjYtMWY2NS00MTViLWEyNjMtNTM1OWUxNTdjNmQyXkEyXkFqcGdeQXVyMDM2NDM2MQ@@._V1_SX300.jpg",
+            "Description":"A gangster family epic set in 1900s England, centering on a gang who sew razor blades in the peaks of their caps, and their fierce boss Tommy Shelby",
+            "Big":"https://decider.com/wp-content/uploads/2017/12/peaky-blinders.jpg?quality=75&strip=all&w=1200",
+            "Rent":6,
+            "Buy":15
+        },
         { "id":19,
             "Title": "Marvel One-Shot: Item 47",
             "Year": "2012",
@@ -332,7 +357,7 @@
 
 
         },
-        { "id":23,
+        {   "id":23,
             "Title": "Scream: The TV Series",
             "Year": "2015–2019",
             "imdbID": "tt3921180",

@@ -30,7 +30,7 @@ function HeroSection() {
          
         </Carousel.Caption>
       </Carousel.Item>
-      <Carousel.Item>
+      <Carousel.Item interval={500}>
       <Link to={`/movies/9`}>
         <img
           className="d-block w-100"
