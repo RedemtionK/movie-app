@@ -21,16 +21,16 @@ function HeroSection() {
       <Link to={`/movies/4`}>
         <img
           className="d-block w-100"
-          src="https://wwwflickeringmythc3c8f7.zapwp.com/q:i/r:0/wp:0/w:1/u:https://cdn.flickeringmyth.com/wp-content/uploads/2021/11/SPider-Man-No-Way-Home-UK-posters-1.jpg"
+          src="https://images.thedirect.com/media/article_full/spider-man-no-way-home-theatrical-release.jpg"
           alt="Second slide"
         />
         </Link>
         <Carousel.Caption>
 
-         
+
         </Carousel.Caption>
       </Carousel.Item>
-      <Carousel.Item interval={500}>
+      <Carousel.Item>
       <Link to={`/movies/9`}>
         <img
           className="d-block w-100"
@@ -48,7 +48,7 @@ function HeroSection() {
         <img
           className="d-block w-100"
           src="https://image.cnbcfm.com/api/v1/image/107023259-1646174593824-batman_2_Cropped.jpg?v=1646174658&w=1600&h=900"
-          alt="First slide"
+          alt="Fourth slide"
         />
         </Link>
         <Carousel.Caption>
@@ -61,7 +61,7 @@ function HeroSection() {
         <img
           className="d-block w-100"
           src="https://occ-0-1007-360.1.nflxso.net/dnm/api/v6/E8vDc_W8CLv7-yMQu8KMEC7Rrr8/AAAABSycU0Eq8fAxEG_iqD-cmzqpiNmlIfPoFjyiKYCQWgcebv-a-4PHULla1sI_KVoAatN-o9UUTRXK2ujNqLY6xaYw4QDbNnefhAAA.jpg?r=6ea"
-          alt="First slide"
+          alt="Fifth slide"
         />
         </Link>
         <Carousel.Caption>
