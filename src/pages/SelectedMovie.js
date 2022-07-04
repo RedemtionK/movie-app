@@ -16,7 +16,7 @@ const SelectedMovie = () => {
 
   useEffect(() => {
     //Async operation GET
-    fetch(`http://localhost:5000/movies/${id}`)
+    fetch(`/movies/${id}`)
       .then((res) => {
         return res.json();
       })

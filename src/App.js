@@ -19,7 +19,7 @@ function App() {
   const [movies, setMovies] = useState([])
 
   useEffect(() => {
-    fetch("http://localhost:5000/movies")
+    fetch("/movies")
 
       .then((res) => {
 
