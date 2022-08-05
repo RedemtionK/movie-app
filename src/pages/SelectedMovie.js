@@ -6,23 +6,29 @@ import Navbar from "../components/Navbar";
 
 const SelectedMovie = () => {
   const [movies, setMovies] = useState({
-    Title: "",
-    Year: "",
-    imdbID: "",
-    Type: "",
-    Poster: "",
+   
+    type: "",
+    year: "",
+    description:"",
+    title: "",
+    big:"",
+    rent:"",
+    buy:"",
+    featured:"",
+    poster: "",
   });
   const { id } = useParams();
 
   useEffect(() => {
     //Async operation GET
-    fetch(`/movies/${id}`)
+    fetch(`http://localhost:5000/movies/${id}`)
       .then((res) => {
         return res.json();
       })
       .then((json) => {
         
-        setMovies(json);
+        setMovies(json.body[0]);
+        
       })
       .catch((err) => {
         console.log(`Error ${err}`);
@@ -31,28 +37,28 @@ const SelectedMovie = () => {
 
   return (
     <div className="container">
-      <h2>Movie: {movies.Title}</h2>
+      <h2>Movie: {movies.title}</h2>
       <div className="row align-items-start">
-        <div className="col"><img className="poster" src={movies.Poster} />
+        <div className="col"><img className="poster" src={movies.poster} />
         </div>
-        <div className="col"> <img className="big-picture" src={movies.Big}></img></div>
+        <div className="col"> <img className="big-picture" src={movies.big}></img></div>
         
        
       </div>
       <div>
       
       </div>
-      <p>Title : {movies.Title}</p>
-      <p>Year : {movies.Year}</p>
+      <p>Title : {movies.title}</p>
+      <p>Year : {movies.year}</p>
      
-      <p>{movies.Description} </p>
+      <p>{movies.description} </p>
 
       <button type="submit" className="btn btn-primary">
-       Rent Movie for {movies.Rent} $
+       Rent Movie for {movies.rent} $
       </button>
       
       <button type="submit" className="btn btn-primary">
-       Buy Movie for {movies.Buy} $
+       Buy Movie for {movies.buy} $
       </button>
       
         

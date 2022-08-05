@@ -9,12 +9,12 @@ const Content = () => {
         
 
             {movies.map((movie, index) =>{
-                if(movie.Rent===0 ){
+                if(movie.rent===0 ){
                     return(
                      <div className='content-container col '>
                         
                     <Link  to={`/movies/${movie.id}`}>
-                        <img className='movies-free' src={movie.Poster} alt='movie'>
+                        <img className='movies-free' src={movie.poster} alt='movie'>
                             </img></Link>
                             </div>
             )}            

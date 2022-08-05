@@ -152,11 +152,15 @@ body {
 	margin-bottom: -5%;
 	
 }
+.search{
+	background-color: black;
+	color: wheat;
+}
 .carusel {
 
 	width: 80%;
 	margin-left: 12%;
-	height: 850px;
+	height: 800px;
 	display: flex;
 	align-items: center;
 	

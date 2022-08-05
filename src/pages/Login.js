@@ -1,9 +1,67 @@
 import React from 'react'
+import { useNavigate } from 'react-router-dom';
+import { useState } from 'react';
 
 const Login = () => {
+  const history = useNavigate();
+  const [user,setUser]=useState({
+      email:"",
+     password:"",
+
+  });
+function submitHandler(evt){
+ 
+ evt.preventDefault()
+ console.log(JSON.stringify(user))
+ fetch("https://backend-movie26.herokuapp.com/auth",{
+
+   method:"POST",
+
+   headers: {
+
+       "Content-Type": "application/json"
+
+   },
+
+   body:JSON.stringify(user)
+
+}
+
+)
+
+.then((response)=>{
+
+   console.log(response)
+
+  if(response.status===200)
+
+  {
+    localStorage.setItem("email",`${user.email}`);
+   history("/dashboard")
+
+  }
+  else{
+    alert("You  username/password were entered incorrectly.")
+  }
+
+}).catch((err)=>{
+
+console.log(`Error:${err}`)
+
+})}
+
+const changeHandler = (event) => {
+
+const name = event.target.name;
+
+const value = event.target.value;
+
+setUser(user => ({...user, [name]: value}))
+
+}
   return (
     <div className='form'>
-    <form>
+    <form onSubmit={submitHandler} noValidate autoComplete='off'>
         <h3>Sign In</h3>
         <div className="mb-3">
           <label>Email address</label>
@@ -11,6 +69,9 @@ const Login = () => {
             type="email"
             className="form-control"
             placeholder="Enter email"
+            value={user.email}
+            name="email"
+            onChange={changeHandler}
           />
         </div>
         <div className="mb-3">
@@ -19,18 +80,14 @@ const Login = () => {
             type="password"
             className="form-control"
             placeholder="Enter password"
+            value={user.password}
+            name="password"
+            onChange={changeHandler}
           />
         </div>
         <div className="mb-3">
           <div className="custom-control custom-checkbox">
-            <input
-              type="checkbox"
-              className="custom-control-input"
-              id="customCheck1"
-            />
-            <label className="custom-control-label" htmlFor="customCheck1">
-              Remember me
-            </label>
+                      
           </div>
         </div>
         <div className="d-grid">
@@ -38,9 +95,7 @@ const Login = () => {
             Submit
           </button>
         </div>
-        <p className="forgot-password text-right">
-          Forgot <a href="#">password?</a>
-        </p>
+       
       </form>
       </div>
   )

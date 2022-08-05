@@ -5,7 +5,7 @@ function HeroSection() {
   return (
     <Carousel className='carusel'>
       <Carousel.Item interval={1000}>
-      <Link to={`/movies/3`}>
+      <Link to={`/movies/2`}>
         <img
           className="d-block w-100"
           src="https://thedisinsider.com/ezoimgfmt/i0.wp.com/thedisinsider.com/wp-content/uploads/2022/06/NJXQ8h3mUd9mhsh2m8xpba.jpg?w=1280&ssl=1&ezimgfmt=ng:webp/ngcb1"

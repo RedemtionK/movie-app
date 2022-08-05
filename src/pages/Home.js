@@ -9,7 +9,6 @@ export default function Home() {
     <div className='container'>
       <h4 className='demanded-movies'> The Most Demanded Movies</h4>
       <div className='row'>  <HeroSection /></div>
-
       <div className='container-fluid movie'>
         <h4>Featured Movies</h4>
         <div className='row'>
@@ -25,13 +24,9 @@ export default function Home() {
       </div>
       <h3 className='rent-free'>Rent this movies free tonight</h3>
       <div className='horizontal-scrollable content-free'>
-         
-      <div className='row '>
-        
-        <Content/>
-       
-        
-      </div>
+        <div className='row '>
+          <Content />
+        </div>
       </div>
     </div>
   )
