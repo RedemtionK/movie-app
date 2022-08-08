@@ -36,8 +36,8 @@ function submitHandler(evt){
   if(response.status===200)
 
   {
-    localStorage.setItem("email",`${user.email}`);
-   history("/dashboard")
+
+   history("/dishboard")
 
   }
   else{

@@ -14,6 +14,7 @@ import Login from './pages/Login';
 import Register from './pages/Register';
 import NotFound from './pages/NotFound';
 import Dashboard from './components/Dashboard';
+import RequireAuth from './components/RequireAuth';
 
 function App() {
   const [movies, setMovies] = useState([])
@@ -42,7 +43,10 @@ function App() {
         <Route path = "/movies/:id" element = {<SelectedMovie/>}/>
         <Route path = "/log-in" element = {<Login/>}/>
         <Route path='/register' element={<Register/>}/>
+        <Route path='/dishboard' element={<Dashboard/>}/>
+        <Route element={<RequireAuth/>}>
         <Route path='/dashboard' element={<Dashboard/>}/>
+        </Route>
         <Route path="*" element={<NotFound/>}/>
       </Routes>
 </movieContext.Provider>

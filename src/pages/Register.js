@@ -40,6 +40,7 @@ const Register = () => {
         if (response.status === 200) {
 
           alert("User have been succesfuly registered !")
+          history("/dishboard")
 
         }
 
