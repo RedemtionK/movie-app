@@ -21,7 +21,7 @@ const SelectedMovie = () => {
 
   useEffect(() => {
     //Async operation GET
-    fetch(`http://localhost:5000/movies/${id}`)
+    fetch(`https://movie-app-klaus.herokuapp.com/movies${id}`)
       .then((res) => {
         return res.json();
       })
